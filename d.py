@@ -1,13 +1,13 @@
-# -*- coding: utf-8 -*-
+m,n = map(int,input().split())
+a= list(map(int,input().split()))
+a= sorted(a,reverse=True)
+if n == 0:
+    print(a[0]-a[m-1])
 
-"""
-@author: wenke
-@file: d.py
-@software: PyCharm
-@time: 2022/11/26 17:05
-@Description: 
-"""
+l= 0
+r= n-1
+max_n = max(a)
+min_n = min(a)
 
+while n>=0:
 
-if __name__ == '__main__':
-    
